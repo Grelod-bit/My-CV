@@ -15,7 +15,62 @@ h2 {
     padding-bottom: 5px;
 }
 
+.education-entries {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.name_and_degree {
+    font-weight: bold;
+}
+
+.graduation {
+    color:#555;
+}
+.skills-list {
+    display:flex;
+    flex-wrap:wrap;
+    list-style-type: none;
+    padding: 0;
+    gap: 15px;
+}
+
+.skills-list li {
+    background: #f0f4f8;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+.experience-list{
+    list-style-type: none;
+    padding:0;
+}
+.experience-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+}
+
+.role {
+    font-weight:bold;
+}
+
+.company{
+    color: #555;
+}
 a:hover{
     color:#ff0000;
     text-decoration:underline;
+}
+
+#resume-container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 850px;
+    margin: 40px auto;
 }
