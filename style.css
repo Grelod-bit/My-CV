@@ -1,0 +1,21 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    line-height: 1.6;
+}
+
+h1 {
+    color:#0d1b2a;
+}
+
+h2 {
+    color:#0d1b2a;
+    border-bottom: 2px solid #0d1b2a;
+    padding-bottom: 5px;
+}
+
+a:hover{
+    color:#ff0000;
+    text-decoration:underline;
+}
